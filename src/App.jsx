@@ -1,7 +1,8 @@
 import './App.css'
+import Hero from './sections/Hero/Hero';
 
 function App() {
-  return <>app</>;
+  return <><Hero /></>;
 }
 
 export default App
