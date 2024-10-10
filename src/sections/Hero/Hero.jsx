@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/hero-img.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -32,9 +32,9 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Lúcio
           <br />
-          Johnsen
+          Torelli
         </h1>
         <h2>Full-stack developer</h2>
         <span>
@@ -46,7 +46,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        <h2>Full-stack Developer</h2>
+        <p>Driven by a lifelong passion for tech and always curious to learn more. Focused on growing my skills and tackling challenges while adding value to my team and the company.</p>
         </p>
         <a href="" download>
           <button className="hover">Resume</button>
