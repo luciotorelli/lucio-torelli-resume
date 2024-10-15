@@ -7,7 +7,7 @@ function ProjectCard({ src , link, h3, p }) {
       target="_blank">
       <img className="hover" src={src} alt={`${h3} logo`}></img>
       <h3>{h3}</h3>
-      <p>Streaming App</p>
+      <p>{p}</p>
     </a>
   );
 }

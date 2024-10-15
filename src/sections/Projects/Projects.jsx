@@ -1,9 +1,9 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectsStyles.module.css";
+import mint from "../../assets/linux-mint.png";
+import escoot from "../../assets/escoot.png";
+import ProjectCard from "../../common/ProjectCard";
+import Paw from "../../assets/paw.png";
+import Password from "../../assets/password.svg";
 
 function Projects() {
   return (
@@ -11,29 +11,29 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={mint}
+          link="https://github.com/luciotorelli/quicksettings-mint"
+          h3="Linux Mint"
+          p="Quick Settings Panel"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={escoot}
+          link="https://github.com/luciotorelli/escoot"
+          h3="Escoot"
+          p="Ecommerce Django Site"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
+          src={Paw}
+          link="https://github.com/luciotorelli/password-generator"
+          h3="MindingPaw"
+          p="Minder Marketplace Django app"
+        />      
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
-        />
+          src={Password}
+          link="https://github.com/luciotorelli/minding-paws#ux"
+          h3="Password Generator"
+          p="Python Terminal App"
+        />          
       </div>
     </section>
   );
