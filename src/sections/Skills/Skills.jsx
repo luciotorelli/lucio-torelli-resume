@@ -12,26 +12,32 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="HTML" />
-        <SkillList src={checkMarkIcon} skill="CSS" />
+        <SkillList src={checkMarkIcon} skill="HTML5" />
+        <SkillList src={checkMarkIcon} skill="CSS3" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
-        <SkillList src={checkMarkIcon} skill="TypeScript" />
-        <SkillList src={checkMarkIcon} skill="Node" />
+        <SkillList src={checkMarkIcon} skill="Python" />
+        <SkillList src={checkMarkIcon} skill="Django" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="React" />
-        <SkillList src={checkMarkIcon} skill="Angular" />
-        <SkillList src={checkMarkIcon} skill="Vue" />
-        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
-      </div>
-      <hr />
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Redux" />
-        <SkillList src={checkMarkIcon} skill="Webpack" />
-        <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="Jest" />
+        <SkillList src={checkMarkIcon} skill="MySQL" />
+        <SkillList src={checkMarkIcon} skill="PostgreSQL" />       
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
+        <SkillList src={checkMarkIcon} skill="Yaml" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Git" />
+        <SkillList src={checkMarkIcon} skill="Github" /> 
+        <SkillList src={checkMarkIcon} skill="JIRA" />
+        <SkillList src={checkMarkIcon} skill="Obsidian" />
+        <SkillList src={checkMarkIcon} skill="Notion" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="ICT Support" />
+        <SkillList src={checkMarkIcon} skill="Quality Assurance" />
+        <SkillList src={checkMarkIcon} skill="Customer Service" />
       </div>
     </section>
   );
