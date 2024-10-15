@@ -7,6 +7,7 @@ import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import { useTheme } from '../../common/ThemeContext';
+import CV from '../../assets/lucio-torelli-cv.docx';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -36,7 +37,7 @@ function Hero() {
           <br />
           Torelli
         </h1>
-        <h2>Full-stack developer</h2>
+        <h2>Full-stack dev</h2>
         <span>
           <a href="https://github.com/luciotorelli" target="_blank">
             <img src={githubIcon} alt="Github icon" />
@@ -48,7 +49,7 @@ function Hero() {
         <p className={styles.description}>
         <p>Driven by a lifelong passion for tech and always curious to learn more. Focused on growing my skills and tackling challenges while adding value to my team and the company.</p>
         </p>
-        <a href="" download>
+        <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
       </div>
