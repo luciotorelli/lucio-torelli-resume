@@ -37,7 +37,9 @@ function Hero() {
           <br />
           Torelli
         </h1>
-        <h2>Full-stack dev</h2>
+        <h3>Tech Support</h3>
+        <h3>QA Tester</h3>
+        <h3>Full-stack dev</h3>
         <span>
           <a href="https://github.com/luciotorelli" target="_blank">
             <img src={githubIcon} alt="Github icon" />
